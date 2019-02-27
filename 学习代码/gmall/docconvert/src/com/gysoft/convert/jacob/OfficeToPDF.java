@@ -42,7 +42,7 @@ public class OfficeToPDF {
 
     @Test
     public  void convert2PDF(){
-         word2PDF("C:\\Users\\DELL\\Desktop\\新建 XLSX 工作表.xlsx","C:\\Users\\DELL\\Desktop\\exc.pdf");
+         word2PDF("C:\\Users\\DELL\\Desktop\\dd.wps","C:\\Users\\DELL\\Desktop\\2019.pdf");
     }
     @Test
     public void testExcelToPDF(){
@@ -50,7 +50,7 @@ public class OfficeToPDF {
     }
     @Test
     public   void  testPPT2PDF(){
-        convert2PDF("C:\\Users\\DELL\\Desktop\\新建 PPT 演示文稿.pps","C:\\Users\\DELL\\Desktop\\hello.pdf");
+        convert2PDF("C:\\Users\\DELL\\Desktop\\dd.ppt","C:\\Users\\DELL\\Desktop\\hello.pdf");
     }
 
     //ppt转pdf

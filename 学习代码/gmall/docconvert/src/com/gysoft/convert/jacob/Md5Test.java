@@ -16,7 +16,8 @@ import java.security.MessageDigest;
  */
 public class Md5Test {
     public static void main(String[] args) {
-        System.out.println(Md5Test.getFileMd5Value("C:\\Users\\DELL\\Desktop", "测试ppt代码优化.ppt"));
+
+        System.out.println(Md5Test.getFileMd5Value("C:\\Users\\DELL\\Desktop", "dd.ppt"));
 
     }
 
