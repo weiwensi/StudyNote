@@ -1,0 +1,72 @@
+百度的ai音频转换技术
+项目10个服务
+线程池静态常量  只有一个
+
+参考datebase 
+封装  一个对象用于实现判断是哪种业务
+
+部署项目
+
+1.启动rabbitmq   做日志     
+起好以后    
+Redis  231
+2   启动zookeeper    服务治理
+3.拉代码   从gitlub拉倒服务器   gyco   checkout
+   cas   messagepush
+ 切换到需要部署的分支  
+
+先把配置文件搞上去    建自己的配置中心  
+4. 修改Tomcat配置
+
+    
+doskey/history
+git checkout wanglingji
+git add _A
+git add -A
+git commit -m "代码优化"
+git push
+git checkout wanglingji
+git pull
+git checkout weiwens
+git merge wanglingji
+git diff
+git checkout master
+git add commit
+git checkout master
+git diff
+git add -A
+git diff
+git merge
+git add -A
+git commit -m "代码优化"
+cd ..
+git push
+cd gyco
+git push
+git checkout master
+git pull
+git checkout weiwens
+git merger master
+git merge master
+git checkout master
+git add commit -m"修复添加项目资讯一个bug"
+git add -A
+git commit -m "修复添加行业资讯一个bug"
+git checkout master
+git pull
+git checkout weiwens
+git push
+git checkout develop-co2.0.0
+git pull
+git branch
+git pull
+git checkout weiwens
+git merge develop-co2.0.0
+git diff
+git add -A
+git commit -m"合并2.0分支，解决冲突"
+git push
+doskey/h
+
+   
+
